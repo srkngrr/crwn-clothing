@@ -10,9 +10,9 @@ import ShopPage from './pages/shoppage/shoppage.component';
 import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 
-import {auth, createUserProfileDocument } from './firebase/firebase.utils.js';
+import {auth, createUserProfileDocument} from './firebase/firebase.utils.js';
 import { setCurrentUser } from './store/user/user.actions';
-import { selectCurrentUser } from './store/user/user.selectors'
+import { selectCurrentUser } from './store/user/user.selectors';
 
 import './App.css';
 
